@@ -1,0 +1,34 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+#app {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.lista {
+	width: 500px;
+	margin-top: 50px;
+	padding: 50px;
+	background-color: #eee;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+
+.oggetto-lista {
+	list-style: none;
+	margin-bottom: 1rem;
+}
+
+.oggetto-lista:last-child {
+	margin-bottom: 0;
+}
+
+.disabled {
+	color: red;
+}
